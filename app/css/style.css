@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.theme-color{ color: #2b3542; }
+.theme-background{ background: #2b3542; }
+
+.theme-color-b{ color: #3f4854; }
+.theme-background-b{ background: #3f4854; }
+
+.theme-color-c{ color: #13c4a5; }
+.theme-background-c{ background: #13c4a5; }
+
+.theme-color-d{ color: #fff; }
+.theme-background-d{ background: #fff; }
+
+.theme-color-e{ color: #9499a0; }
+.theme-background-e{ background: #9499a0; }
