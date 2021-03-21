@@ -36,7 +36,7 @@ body{
    font-weight: bold;
    padding: 7px 20px;
    margin-top: 30px;
-   margin-bottom: -10px;
+   margin-bottom: -5px;
 }
 
 .painel-left-group{
@@ -73,8 +73,13 @@ body{
    background: rgba(200,200,200, 0.2);
 }
 
+.painel-left-close:active{
+   background: rgba(200,200,200, 0.4);
+}
+
 .painel-right{
 	padding: 40px;
+	overflow-y: auto;
 }
 
 .painel-right:focus{
@@ -83,3 +88,33 @@ body{
 	outline: none;
 }
 
+.folder{
+   
+}
+
+.folder-item{
+    padding: 7px 20px;
+	padding-bottom: 6px;
+	border-bottom: 2px solid rgba(200,200,200, 0.05);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+
+.folder-item:hover{
+    background: rgba(200,200,200, 0.04);
+}
+
+.folder-item:active{
+   background: rgba(200,200,200, 0.07);
+}
+
+.folder-icon-button{
+   display: inline;
+   font-size: 13px;
+   color: #47576c;
+}
