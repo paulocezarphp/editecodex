@@ -75,7 +75,7 @@
 				</div>
 
 			</div>
-			<div class="theme-background-b theme-color-e">
+			<div class="scroll theme-background-b theme-color-e">
 				<div class="tabmenu">
 					<div class="tabmenu-item">
 						<div class="tabmenu-group">
