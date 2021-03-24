@@ -112,7 +112,6 @@ FOLDER
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-
 }
 
 .folder-item:hover{
@@ -136,7 +135,6 @@ TABMENU
 	background: rgba(44, 50, 58, 1);
 	position: fixed;
 	width: 100%;
-	
 }
 
 .tabmenu-item{
@@ -144,7 +142,6 @@ TABMENU
 	display: inline-flex;
 	padding: 8px 15px;
 	padding-top: 11px;
-
 	background: rgba(0,0,0, 0.21);
 	-webkit-border-top-left-radius: 4px;
 	-webkit-border-top-right-radius: 4px;
@@ -153,7 +150,14 @@ TABMENU
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
 	margin-top: 8px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
+
 
 .tabmenu-group{
 	display: grid;
