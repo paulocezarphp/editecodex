@@ -26,25 +26,26 @@
 				<div class="painel-left-title theme-color-c">OPEN FILES</div>
 
 				<div class="painel-left-group">
-					<div class="painel-left-item theme-color-d">Elemento</div>
+					<div class="painel-left-item theme-color-d">Elemento 1</div>
 					<div class="painel-left-close">&#10006;</div>
 				</div>
 				<div class="painel-left-group">
-					<div class="painel-left-item theme-color-d">Elemento</div>
+					<div class="painel-left-item theme-color-d">Elemento 2</div>
 					<div class="painel-left-close">&#10006;</div>
 				</div>
 				<div class="painel-left-group">
-					<div class="painel-left-item theme-color-d">Elemento</div>
+					<div class="painel-left-item theme-color-d">Elemento 3</div>
 					<div class="painel-left-close">&#10006;</div>
 				</div>
 				<div class="painel-left-group">
-					<div class="painel-left-item theme-color-d">Elemento</div>
+					<div class="painel-left-item theme-color-d">Elemento 4</div>
 					<div class="painel-left-close">&#10006;</div>
 				</div>
 				<div class="painel-left-group">
-					<div class="painel-left-item theme-color-d">Elemento</div>
+					<div class="painel-left-item theme-color-d">Elemento 5</div>
 					<div class="painel-left-close">&#10006;</div>
 				</div>
+
 
 				<div class="painel-left-title theme-color-c">FOLDERS</div>
 
@@ -75,42 +76,14 @@
 				</div>
 
 			</div>
-			<div class="scroll theme-background-b theme-color-e">
-				<div class="tabmenu">
-					<div class="tabmenu-item">
-						<div class="tabmenu-group">
-							<div class="tabmenu-namefile">filebill.php</div>
-							<div class="tabmenu-close">&#10006;</div>
-						</div>
-					</div>
-					<div class="tabmenu-item">
-						<div class="tabmenu-group">
-							<div class="tabmenu-namefile">filebill.php</div>
-							<div class="tabmenu-close">&#10006;</div>
-						</div>
-					</div>
-					<div class="tabmenu-item">
-						<div class="tabmenu-group">
-							<div class="tabmenu-namefile">filebill.php</div>
-							<div class="tabmenu-close">&#10006;</div>
-						</div>
-					</div>
-					<div class="tabmenu-item">
-						<div class="tabmenu-group">
-							<div class="tabmenu-namefile">filebill.php</div>
-							<div class="tabmenu-close">&#10006;</div>
-						</div>
-					</div>
-
-				</div>
-				<div class="painel-right" contentEditable="true" spellcheck="false">
-					bbbb
-				</div>
+			<div class="painel-right theme-background-b theme-color-d" contentEditable="true" spellcheck="false">
+				bbbb
 			</div>
 		</div>
 	</div>
+</div>
 
-	<script type="text/javascript" src="app/js/jquery-3.6.0.min.js"></script>
-	<script type="text/javascript" src="app/js/script.js"></script>
+<script type="text/javascript" src="app/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="app/js/script.js"></script>
 </body>
 </html>

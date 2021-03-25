@@ -19,7 +19,7 @@
  	}
 
  	function FecharArquivoAberto(){
-
+     
  	}
 
  	function DeletarArquivo(){
@@ -40,12 +40,12 @@
 
  	
  	/*----------------------------------------------------------------
- 	Selecionando arquivos na aba de menu de arquivos
+ 	Fechando arquivos abertos
  	----------------------------------------------------------------*/
- 	$(".tabmenu-item").click(function(){
- 		$(".tabmenu-item").css({"background":"rgba(0,0,0, 0.21)"});
- 		$(this).css({"background":"rgba(200,200,200, 0.31)"});
+ 	$(".painel-left-close").click(function(){
+ 		$(this).parent().remove();
  	});
+ 	
  	
 
  });
