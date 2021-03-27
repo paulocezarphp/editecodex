@@ -6,9 +6,6 @@
 
  	}
 
- 	function EditorHighlightStart(){
-
- 	}
 
  	function EditorLinhaStart(){
 
@@ -36,6 +33,11 @@
 
  	function AtualizarArquivosAbertos(){
 
+ 	}
+
+ 	function EditorHighlightStart(){
+        edite = document.getElementById("edite-code").value;
+ 		var newstr = str.replace(/xmas/i, 'Christmas');
  	}
 
  	

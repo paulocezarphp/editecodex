@@ -76,7 +76,7 @@
 				</div>
 
 			</div>
-			<div class="painel-right theme-background-b theme-color-d" contentEditable="true" spellcheck="false">
+			<div class="painel-right theme-background-b theme-color-d" contentEditable="true" spellcheck="false" id="edite-code">
 				bbbb
 			</div>
 		</div>
