@@ -16,7 +16,7 @@
  	}
 
  	function FecharArquivoAberto(){
-     
+
  	}
 
  	function DeletarArquivo(){
@@ -36,7 +36,7 @@
  	}
 
  	function EditorHighlightStart(){
-        edite = document.getElementById("edite-code").value;
+ 		edite = document.getElementById("edite-code").value;
  		var newstr = str.replace(/xmas/i, 'Christmas');
  	}
 
@@ -47,7 +47,13 @@
  	$(".painel-left-close").click(function(){
  		$(this).parent().remove();
  	});
- 	
+
+
+ 	$("#edite-code").keyup(function(){
+
+      
+ 	});
  	
 
- });
+
+});
