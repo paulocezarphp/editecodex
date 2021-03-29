@@ -8,6 +8,10 @@
 	<link rel="stylesheet" type="text/css" href="app/css/style.css">
 	<link rel="stylesheet" type="text/css" href="app/css/mobile.css">
 	<link rel="stylesheet" type="text/css" href="app/css/desktop.css">
+	<?php
+       include("app/php/files.php");
+       $files = new Files();
+	?>
 </head>
 <body>
 
@@ -74,7 +78,7 @@
 						arquive.php
 					</div>
 				</div>
-
+				
 			</div>
 			<div class="painel-right theme-background-b theme-color-d" contentEditable="true" spellcheck="false" id="edite-code">
 				bbbb
