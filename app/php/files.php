@@ -31,16 +31,25 @@ class Files{
 
    }
 
-   public function Rename_File($name_file, $path){
+   public function Rename_File($name_file, $new_name_file, $path){
+       $raiz_file = $path."/".$name_file;
+       rename ($raiz_file, $new_name_file);
+   }
 
+   public function Copy_File($name_file, $path){
+       $raiz_file = $path."/".$name_file;
+       copy($raiz_file, $raiz_file);
    }
 
    public function Delete_File($name_file, $path){
-
+       $raiz_file = $path."/".$name_file;
+       echo unlink($raiz_file);
    }
 
-   public function Create_Folder($name_folder, $path){
-
+   public function Create_Folder($name_folder, $path, $permission){ 
+       //permission (0777)
+       $raiz_folder = $name_folder."/".$name_folder;
+       mkdir($raiz_folder, $permission, true);
    }
 
    public function Delete_Folder($name_folder, $path){
