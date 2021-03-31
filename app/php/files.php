@@ -86,14 +86,24 @@ class Files{
 
                }
 
+
+
                if($fileInfo->getType() == "dir"){
-                   //dir past   
+                   echo '<div class="folder">                 
+                             <div class="folder-item theme-color-d">
+                                 <div class="folder-icon-button theme-color-b">&#10148;</div>
+                           '.$fileInfo->getFilename().'
+                             </div>
+                         </div>';  
                }else{
-                   //files
+                   echo '<div class="folder">                 
+                             <div class="folder-item theme-color-d folder-space-left">                               
+                           '.$fileInfo->getFilename().'
+                             </div>
+                         </div>';
                }
 
-               echo $fileInfo->getFilename(); 
-               //$file_size -> Size Past       
+               
               
                echo "<br>";
            }

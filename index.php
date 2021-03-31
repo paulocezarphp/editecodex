@@ -9,8 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="app/css/mobile.css">
 	<link rel="stylesheet" type="text/css" href="app/css/desktop.css">
 	<?php
-       include("app/php/files.php");
-       $files = new Files();
+	include("app/php/files.php");
+	$files = new Files();
 	?>
 </head>
 <body>
@@ -52,32 +52,8 @@
 
 
 				<div class="painel-left-title theme-color-c">FOLDERS</div>
-
-
-				<div class="folder">            	    
-					<div class="folder-item theme-color-d">
-						<div class="folder-icon-button theme-color-b">&#10148;</div>
-						arquive.php
-					</div>
-				</div>
-				<div class="folder">            	    
-					<div class="folder-item theme-color-d">
-						<div class="folder-icon-button theme-color-b">&#10148;</div>
-						arquive.php
-					</div>
-				</div>
-				<div class="folder">            	    
-					<div class="folder-item theme-color-d">
-						<div class="folder-icon-button theme-color-b">&#10148;</div>
-						arquive.php
-					</div>
-				</div>
-				<div class="folder">            	    
-					<div class="folder-item theme-color-d">
-						<div class="folder-icon-button theme-color-b">&#10148;</div>
-						arquive.php
-					</div>
-				</div>
+		
+				<?php $files->List_Directory(); ?>
 				
 			</div>
 			<div class="painel-right theme-background-b theme-color-d" contentEditable="true" spellcheck="false" id="edite-code">

@@ -99,7 +99,8 @@ PAINEL
 FOLDER
 ---------------------------------------------------*/
 .folder{
-
+    display: inline-table;
+    width: 100%;
 }
 
 .folder-item{
@@ -127,6 +128,7 @@ FOLDER
 	font-size: 13px;
 	color: #47576c;
 }
+
 
 /*---------------------------------------------------
 TABMENU
