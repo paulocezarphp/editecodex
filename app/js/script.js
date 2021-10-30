@@ -1,17 +1,17 @@
  $(document).ready(function(){
 
  	var arquivos_abertos = [""];
+    var tamanho_font = "14px";
 
  	function CarregamentoPagina(){
 
  	}
 
-
  	function EditorLinhaStart(){
 
  	}
 
- 	function AbrirArquivo(){
+ 	function AbrirArquivo(arquivo){
 
  	}
 
@@ -19,19 +19,19 @@
 
  	}
 
- 	function DeletarArquivo(){
+ 	function DeletarArquivo(arquivo){
 
  	}
 
- 	function RenomearArquivo(){
+ 	function RenomearArquivo(arquivo, novo_nome){
 
  	}
 
- 	function SalvarArquivo(){
+ 	function SalvarArquivo(arquivo, conteudo){
 
  	}
 
- 	function AtualizarArquivosAbertos(){
+ 	function AtualizarArquivosAbertos(lista_arquivos){
 
  	}
 
@@ -39,6 +39,11 @@
  		edite = document.getElementById("edite-code").value;
  		var newstr = str.replace(/xmas/i, 'Christmas');
  	}
+
+    function Bloquear_click_direito(){
+
+        document.oncontextmenu = document.body.oncontextmenu = function() { return false; }
+    }
 
  	
  	/*----------------------------------------------------------------
@@ -53,7 +58,9 @@
 
       
  	});
- 	
 
+
+    Bloquear_click_direito();
+ 	
 
 });

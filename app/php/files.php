@@ -32,24 +32,32 @@ class Files{
    }
 
    public function Rename_File($name_file, $new_name_file, $path){
+
        $raiz_file = $path."/".$name_file;
        rename ($raiz_file, $new_name_file);
+
    }
 
    public function Copy_File($name_file, $path){
+
        $raiz_file = $path."/".$name_file;
        copy($raiz_file, $raiz_file);
+
    }
 
    public function Delete_File($name_file, $path){
+
        $raiz_file = $path."/".$name_file;
        echo unlink($raiz_file);
+
    }
 
    public function Create_Folder($name_folder, $path, $permission){ 
+
        //permission (0777)
        $raiz_folder = $name_folder."/".$name_folder;
        mkdir($raiz_folder, $permission, true);
+       
    }
 
    public function Delete_Folder($name_folder, $path){
@@ -64,7 +72,9 @@ class Files{
 
        $path = 'folder/';
        $dir = new DirectoryIterator($path);
+
        foreach ($dir as $fileInfo) {
+
            if($fileInfo->getFilename() != "." and $fileInfo->getFilename() != ".."){
                
                $file_size = 0;
@@ -86,25 +96,27 @@ class Files{
 
                }
 
-
-
                if($fileInfo->getType() == "dir"){
-                   echo '<div class="folder">                 
-                             <div class="folder-item theme-color-d">
-                                 <div class="folder-icon-button theme-color-b">&#10148;</div>
-                           '.$fileInfo->getFilename().'
-                             </div>
-                         </div>';  
-               }else{
-                   echo '<div class="folder">                 
-                             <div class="folder-item theme-color-d folder-space-left">                               
-                           '.$fileInfo->getFilename().'
-                             </div>
-                         </div>';
-               }
 
-               
-              
+               	   echo '
+               	   <div class="folder">                 
+               	      <div class="folder-item theme-color-d">
+               	         <div class="folder-icon-button theme-color-b">&#10148;</div>
+                             '.$fileInfo->getFilename().'
+               	         </div>
+               	   </div>';  
+
+               }else{
+
+               	   echo '
+               	   <div class="folder">                 
+               	      <div class="folder-item theme-color-d folder-space-left">                               
+               	         '.$fileInfo->getFilename().'
+               	      </div>
+               	   </div>';
+
+               }
+             
                echo "<br>";
            }
 

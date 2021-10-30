@@ -52,8 +52,10 @@
 
 
 				<div class="painel-left-title theme-color-c">FOLDERS</div>
-		
-				<?php $files->List_Directory(); ?>
+		        
+		        <div id="lista-de-arquivos">
+				   <?php $files->List_Directory(); ?>
+				</div>
 				
 			</div>
 			<div class="painel-right theme-background-b theme-color-d" contentEditable="true" spellcheck="false" id="edite-code">
